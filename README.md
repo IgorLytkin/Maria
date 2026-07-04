@@ -17,34 +17,90 @@
 
 ## Требования
 
-- Python 3.x
+- Python 3.8+
 - Jupyter Notebook или JupyterLab
 - pandas
 - matplotlib / seaborn (для визуализации)
+- numpy
+
+## Быстрый старт
+
+### 1. Клонируйте репозиторий
+```bash
+git clone https://github.com/IgorLytkin/Maria.git
+cd Maria
+```
+
+### 2. Создайте виртуальное окружение (рекомендуется)
+```bash
+python -m venv venv
+source venv/bin/activate  # На Windows: venv\Scripts\activate
+```
+
+### 3. Установите зависимости
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Запустите Jupyter Notebook
+```bash
+jupyter notebook
+```
+
+### 5. Откройте необходимый файл и выполните ячейки
+- `Lab1.ipynb` — основной анализ контента и SEO-запросов
+
+## Структура репозитория
+
+```
+Maria/
+├── README.md                 # Документация проекта
+├── requirements.txt          # Зависимости Python
+├── LICENSE                   # MIT License
+├── .gitignore               # Git ignore файл
+├── CONTRIBUTING.md          # Руководство по вкладу
+├── Lab1.ipynb               # Основной анализ
+├── 01-07-26.csv             # CSV данные
+└── 01.07.26 2.csv           # CSV данные
+```
+
+## Файлы данных
+
+- `01-07-26.csv` — основные данные контента
+- `01.07.26 2.csv` — дополнительные SEO-запросы
 
 ## Как использовать
 
-1. Клонируйте репозиторий
-   ```bash
-   git clone https://github.com/IgorLytkin/Maria.git
-   ```
+1. Подготовьте CSV файлы с данными
+2. Откройте `Lab1.ipynb` в Jupyter
+3. Выполните ячейки для получения анализа и визуализаций
+4. Изучите графики и рекомендации
 
-2. Установите зависимости
-   ```bash
-   pip install jupyter pandas matplotlib seaborn
-   ```
+## Результаты анализа
 
-3. Запустите Jupyter Notebook
-   ```bash
-   jupyter notebook
-   ```
+Notebook генерирует:
+- Статистику по вовлеченности контента
+- Графики популярности постов
+- Анализ SEO-запросов
+- Рекомендации по улучшению контента
 
-4. Откройте необходимый `.ipynb` файл и выполните ячейки
+## Внесение вклада
+
+Добро пожаловать к участию! Для подробной информации см. [CONTRIBUTING.md](CONTRIBUTING.md)
+
+Вы можете:
+- Открыть issues с предложениями или проблемами
+- Отправить pull requests с улучшениями
+- Предложить новые методы анализа
 
 ## Автор
 
 [IgorLytkin](https://github.com/IgorLytkin)
 
+## Лицензия
+
+Этот проект лицензирован под MIT License — см. файл [LICENSE](LICENSE) для деталей.
+
 ---
 
-Добро пожаловать к участию! Вы можете открыть issues или отправить pull requests.
+📧 Если у вас есть вопросы или предложения, создайте issue в репозитории.
