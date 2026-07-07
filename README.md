@@ -35,6 +35,10 @@ cd Maria
 ```bash
 python -m venv venv
 source venv/bin/activate  # На Windows: venv\Scripts\activate
+
+Для Windows 11:
+py -m venv venv
+.\venv\Scripts\Activate.ps1
 ```
 
 ### 3. Установите зависимости
