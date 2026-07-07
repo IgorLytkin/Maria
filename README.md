@@ -37,6 +37,7 @@ python -m venv venv
 source venv/bin/activate  # На Windows: venv\Scripts\activate
 
 Для Windows 11:
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 py -m venv venv
 .\venv\Scripts\Activate.ps1
 ```
